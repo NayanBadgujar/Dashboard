@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="user">
+        <div class="profile">
+          <img src="/src/profile.png" alt="" height="90px" />
+        </div>
+        <div class="nav">
+          <ul>
+            <li><i class="fa fa-user-lock"></i><a href="#">My Cloud</a></li>
+            <li>
+              <i class="fa-regular fa-file"></i><a href="#">Shared Files</a>
+            </li>
+            <li><i class="fa-regular fa-star"></i><a href="#">Favorites</a></li>
+            <li>
+              <i class="fa-solid fa-arrow-up-from-bracket"></i
+              ><a href="#">Upload Files</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-footer">
+          <ul>
+            <li><i class="fa-solid fa-gear"></i><a href="#">Settings</a></li>
+            <li>
+              <i class="fa-solid fa-right-from-bracket"></i
+              ><a href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <input class="search" type="search" placeholder="     Search " />
+        <h5>Categories</h5>
+        <div class="cards">
+          <div class="card">
+            <div class="ic">
+              <div class="ic_icon" style="color: #2770d6">
+                <i class="fa-solid fa-camera"></i>
+              </div>
+            </div>
+            <h6>Pictures</h6>
+            <h6>480 Files</h6>
+          </div>
+          <div
+            class="card"
+            style="margin-left: 15px; background-color: #03a1b7"
+          >
+            <div class="ic">
+              <div class="ic_icon" style="color: #03a1b7">
+                <i class="fa-regular fa-file"></i>
+              </div>
+            </div>
+            <h6>Documents</h6>
+            <h6>190 Files</h6>
+          </div>
+          <div
+            class="card"
+            style="margin-left: 15px; background-color: #e06da0"
+          >
+            <div class="ic">
+              <div class="ic_icon" style="color: #e06da0">
+                <i class="fa-solid fa-video"></i>
+              </div>
+            </div>
+            <h6>Videos</h6>
+            <h6>30 Files</h6>
+          </div>
+          <div
+            class="card"
+            style="margin-left: 15px; background-color: #2770d6"
+          >
+            <div class="ic">
+              <div class="ic_icon" style="color: #2770d6">
+                <i class="fa-solid fa-microphone"></i>
+              </div>
+            </div>
+            <h6>Audio</h6>
+            <h6>80 Files</h6>
+          </div>
+        </div>
+
+        <h5>Files</h5>
+        <div class="file-cards">
+          <div class="file-card">
+            <div class="file-icon" style="color: #06367a">
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <h5>Work</h5>
+            820 Files
+          </div>
+
+          <div class="file-card" style="margin-left: 15px">
+            <div class="file-icon" style="color: #03a1b7">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <h5>Personal</h5>
+            115 files
+          </div>
+
+          <div class="file-card" style="margin-left: 15px">
+            <div class="file-icon" style="color: #e06da0">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <h5>School</h5>
+            65 files
+          </div>
+
+          <div class="file-card" style="margin-left: 15px">
+            <div class="file-icon" style="color: #06367a">
+              <i class="fa-solid fa-box-archive"></i>
+            </div>
+            <h5>Archive</h5>
+            21 files
+          </div>
+
+          <div
+            class="file-card"
+            style="
+              margin-left: 15px;
+              background-color: azure;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <h5 style="margin-top: 50px">Recent Files</h5>
+
+        <div class="Recent">
+          <div class="r-files">
+            <div class="f-name">
+              <div class="rc" style="background-color: #06367a">
+                <div class="r-icon"><i class="fa-solid fa-camera"></i></div>
+              </div>
+              IMG_101010
+            </div>
+            <div class="f-type" style="color: grey">PNG file</div>
+            <div class="f-size" style="color: grey">5 MB</div>
+            <div class="share" style="color: #06367a">
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+            <div class="more" style="color: #2770d6; font-weight: 900">...</div>
+          </div>
+
+          <div class="r-files">
+            <div class="f-name">
+              <div class="rc" style="background-color: #06367a">
+                <div class="r-icon"><i class="fa-solid fa-camera"></i></div>
+              </div>
+              StartUp pitch
+            </div>
+            <div class="f-type" style="color: grey">AVT file</div>
+            <div class="f-size" style="color: grey">5 MB</div>
+            <div class="share" style="color: #06367a">
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+            <div class="more" style="color: #2770d6; font-weight: 900">...</div>
+          </div>
+
+          <div class="r-files">
+            <div class="f-name">
+              <div class="rc" style="background-color: #06367a">
+                <div class="r-icon"><i class="fa-solid fa-camera"></i></div>
+              </div>
+              Freestyle beat
+            </div>
+            <div class="f-type" style="color: grey">MP3 file</div>
+            <div class="f-size" style="color: grey">5 MB</div>
+            <div class="share" style="color: #06367a">
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+            <div class="more" style="color: #2770d6; font-weight: 900">...</div>
+          </div>
+
+          <div class="r-files">
+            <div class="f-name">
+              <div class="rc" style="background-color: #06367a">
+                <div class="r-icon"><i class="fa-solid fa-camera"></i></div>
+              </div>
+              Work proposal
+            </div>
+            <div class="f-type" style="color: grey">Docx file</div>
+            <div class="f-size" style="color: grey">5 MB</div>
+            <div class="share" style="color: #06367a">
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+            <div class="more" style="color: #2770d6; font-weight: 900">...</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="storage">
+        <div class="s-upload">
+          <a href="#"><i class="fa-solid fa-upload"></i></a>
+          <h5>Add New Files</h5>
+        </div>
+        <div class="s-left">
+          <pre>  <span style="color:#06367a; font-weight: 900; font-size: 17px;">Your Storage</span>               <span style="color: #03a1b7; font-weight:900; font-size: 17px;">25% Left</span></pre>
+          <p style="margin-left: 15px">75 GB of 100GB are Used</p>
+          <input
+            type="range"
+            id="rangeInput"
+            min="0"
+            max="100"
+            value="50"
+            step="1"
+          />
+          <div class="share-folder">
+            <h5 style="padding-top: 20px; padding-left: 15px">
+              Your Shared Folders
+            </h5>
+            <div class="sh">
+              Keynote Files
+              <div class="ic">
+                <div class="ic_icon" style="color: #03a1b7; margin-left: 90px">
+                  <img src="/src/cr.jpg" height="26px" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="sh" style="margin-top: 20px;">
+              Vacation 
+              <div class="ic">
+                <div class="ic_icon" style="color:aliceblue; margin-left: 90px">
+                  <img src="/src/cr.jpg" height="26px" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="sh" style="margin-top: 20px;">
+              Project R
+              <div class="ic">
+                <div class="ic_icon" style="color:#06367a; margin-left: 90px">
+                  <img src="/src/cr.jpg" height="26px" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,480 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #92e0eb;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#8cdfeb;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    border-radius:15px;
+    height: 800px;
+    width: 1600px;
+    background-color:#ecf2fc;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 900;
+    width: 190px;
+    height: 800px;
+    background-color:#06367a;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width:190px;
+    /* background-color:green; */
+}
+.profile img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.nav{
+    margin-top: 25px;
+    padding-top: 5px;
+}
+
+.nav ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.nav ul li i {
+    margin-right: 16px; 
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.nav-footer{
+    margin-top: 450px;
+}
+.nav-footer ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.nav-footer ul li i {
+    margin-right: 16px; 
+}
+.nav-footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.content{
+    /* height: 800px; */
+    width: 950px;
+    /* background-color:green; */
+    padding-left: 30px;
+}
+
+.search{
+    border: white;
+    height:40px;
+    margin-top: 20px;
+    width: 900px;
+    border-radius: 50px;
+}
+
+h5{
+    margin-top: 25px;
+    font-weight: 900;
+    color: #06367a;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 120px;
+    /* background-color: aquamarine; */
+}
+
+.card{
+    border-radius: 10px;
+    height: 120px;
+    width: 150px;
+    background-color:#6764fe;
+    display: flex;
+}
+.card{
+    border-radius: 10px;
+    height: 120px;
+    width: 150px;
+    background-color:#6764fe;
+    display: flex;
+}
+
+.ic{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    height: 40px;
+    width: 150px;
+    /* background-color:red; */
+}
+.ic_icon{
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+h6{
+    margin-left: 10px;
+    margin-top: 7px;
+    color: white;
+    font-weight: 800;
+}
+
+.file-cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    height: 100px;
+    width: 900px;
+}
+
+.file-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 150px;
+    height: 120px;
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.file-icon{
+    height: 10px;
+}
+
+.f-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    color: black;
+    font-weight: 900;
+}
+
+
+.Recent{
+    display: flex;
+    flex-direction: column;
+    width: 900px;   
+    gap:15px 
+}
+
+.r-files{
+    width: 900px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    gap:140px
+}
+ 
+.rc{
+    margin-left: 15px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.r-icon{
+    color: white;
+    border-radius: 50%;
+}
+
+.storage{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 765px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 320px;
+    border-radius: 10px;
+    width: 360px;
+    background-color:#f5f9fd;
+}
+
+.s-upload a{
+    font-size: 40px;
+}
+
+.s-left{
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 100px;
+    width: 360px;
+    background-color:#f5f9fd;   
+}
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    margin-left: 20px;
+    width: 90%;
+    height: 10px;
+    background: linear-gradient(to right, blue 75%, #d3d3d3 75%);
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    border-radius: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.share-folder{
+    margin-top: 15px;
+    height: 280px;
+    width: 360px;
+    background-color:#f5f9fd;
+    border-radius: 10px;
+}
+
+.sh{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-between;
+    color: #06367a;
+    font-weight: 900;
+    margin-left: 15px;
+    height:60px;
+    width: 320px;
+    border-radius: 10px;
+    padding-left: 10px;
+    gap:50px;
+    background-color: rgba(191,228,236,255);
+}
+
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .user {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #06367a;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .nav-mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav-mobile ul li {
+    display: inline;
+  }
+
+  .nav-mobile ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+
+  .nav-mobile ul li a i {
+    display: block;
+    margin: 0 auto 5px auto;
+  }
+
+  .content {
+    margin-top: 60px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .cards,
+  .file-cards,
+  .Recent,
+  .storage {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  .cards .card,
+  .file-cards .file-card,
+  .Recent .r-files,
+  .storage .s-upload,
+  .storage .s-left,
+  .storage .share-folder {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .file-cards {
+    gap: 10px;
+  }
+
+  .r-files {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .search {
+    width: calc(100% - 20px);
+  }
+
+  .storage {
+    width: calc(100% - 20px);
+    margin: 20px auto;
+  }
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .user {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .profile {
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+    }
+
+    .nav {
+        margin-top: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-footer {
+        margin-top: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .search {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .cards, .file-cards, .Recent {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card, .file-card, .r-files {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .storage {
+        width: 100%;
+        margin: 0;
+    }
+
+    .s-upload, .s-left, .share-folder {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
